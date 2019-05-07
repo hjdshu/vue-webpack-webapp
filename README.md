@@ -16,7 +16,13 @@ npm run build
 ```
 
 ## Error
+
 if log: 'ERROR in Node Sass does not yet support your current environment: OS X 64-bit '
 ```
 npm rebuild node-sass
+```
+if in windows error, 
+Install the build tools with this one-liner. Start PowerShell as Administrator and run:
+```
+npm install --global windows-build-tools
 ```
